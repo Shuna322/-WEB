@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Анкета</title>
+</head>
+<body>
+	<center>
+		<form>
+			<P>
+			<center><h1>Анкета</h1></center>
+			</p>
+			<p>
+				Заповни анкету для вступу в клуб <i>"Віртуальа бібліотека"</i> 
+			</p>
+			<legend>Введіть ім'я</legend>
+			<input type="text" name="PIP" placeholder="ПІП" size="45"> <br>
+			Введіть пароль 
+			<input type="password" name="pass" size="5"> <br> <!-- TEST -->
+			Стать: 
+			<input type="radio" name="gender" value="Чоловік"> Чоловік
+			<input type="radio" name="gender" value="Жінка"> Жінка <br>
+				Вид занять:
+				<p>
+					<input type="checkbox" name="Студент" checked="TRUE"> Студент <br>
+					<input type="checkbox" name="Школяр"> Школяр <br>
+					<input type="checkbox" name="Аспірант"> Аспірант <br>
+					<input type="checkbox" name="Працюю"> Працюю <input type="checkbox" name="Не працюю"> Не працюю
+				</p>
+				Які книги любиш читати: <br>
+				<select size="3" multiple> 
+					<option>Науково-пізнавальні</option>
+					<option>Фантастика</option>
+					<option>Фентезі</option>
+					<option>Пригодні</option>
+					<option selected="TRUE">Історичні</option>
+				</select>
+				<p>
+					Що читаєш зараз  <br>
+					Поділись враженнями про прочитане: <br>
+					<textarea name="text" title="Сміливіше !" cols="40" rows="5">Почни тут</textarea>
+				</p>
+			<p>
+				Більше інформації на сайті <a href="http://tk.te.ua/">http://tk.te.ua/</a>
+			</p>
+			<p>
+			 	<input type="reset" name="cancel" value="Відміна">
+			 	<input type="submit" name="submit" value="Готово">
+		 	</p>
+		</form>
+	</center>
+</body>
+</html>
