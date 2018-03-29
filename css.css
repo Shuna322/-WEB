@@ -1,0 +1,33 @@
+body{
+	font-family: Tahoma;
+}
+
+.siteinfo .infoblock1  {
+	font-size: 45px;
+	text-align: center;
+}
+
+.siteinfo .infoblock1 a {
+	color: Black;
+	text-decoration-line: none;
+}
+
+.siteinfo {
+	float: left;
+}
+
+.menu {
+	float: left;
+	border: 2px solid Black;
+	
+}
+
+.menu ul {
+	margin: auto;
+	position: absolute;
+	top: 50%;
+}
+
+html, body, .menu, .siteinfo {
+	height: 100%;
+}
