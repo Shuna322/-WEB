@@ -1,8 +1,0 @@
-ul.testclass, ul.testclass li a {
-	color: red
-}
-
-input.element[type="text"][name="firstname"] {
-	font-size: 25px;
-	color: red
-}
