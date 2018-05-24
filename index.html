@@ -4,15 +4,23 @@
   <meta charset="UTF-8">
   <title>JS</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
   <h1 class="Text">Форма реєстрації</h1>
   <div class="formblock">
     <form class="reg">
-      <input type="text" name="name" placeholder="Введіть прізвище">
-      <input type="text" name="sname" placeholder="Введіть прізвище">
-      <input type="text" name="email" placeholder="Введіть електронну адрессу">
-
+      <div class="column1">
+        <div class="field"><input type="text" name="name" placeholder="Введіть прізвище" size="30"></div>
+        <div class="field"><input type="text" name="sname" placeholder="Введіть прізвище" size="30"></div>
+        <div class="field"><input type="text" name="email" placeholder="Введіть електронну адрессу" size="30"></div>
+      </div>
+      <div class="column2">
+        <div class="field"><input type="password" name="password" placeholder="Введіть пароль" size="30"></div>
+        <div class="field"><input type="password" name="passwordrepeat" placeholder="Повторіть пароль" size="30"></div>
+        <div class="field"><input type="text" name="adress" placeholder="Введіть адрессу" size="30"></div>
+      </div>
+      <button name="send">Відправити</button>
     </form>
   </div>
   <script src="code.js"></script>
