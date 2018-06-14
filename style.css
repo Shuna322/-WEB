@@ -1,3 +1,7 @@
 .formblock .column1{
   float: left;
 }
+
+.formblock .field {
+  padding: 5px;
+}
